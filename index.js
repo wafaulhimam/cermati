@@ -1,5 +1,5 @@
-$( "#notif" ).click(function() {
-    $( "#notif" ).slideUp( "slow", function() {
-      // Animation complete.
+$(document).ready(function(){
+    $("#buttonnotif").click(function(){
+      $("#notification").slideUp();
     });
   });
