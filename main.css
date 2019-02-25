@@ -5,13 +5,35 @@ body{
 }
 
 .header{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
 
+.overlay:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    z-index:0;
+    background-color: #004a75;
+    opacity: 0.5;
+  }
+
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .notif{
     background-color: #f2f2f2;
     width: 100%;
-    height: 64px;
+    height: 44px;
     position: sticky;
     top:0px;
     text-align:center;
@@ -24,11 +46,19 @@ body{
 
 
 .highlight{
+    color:#000;
+    z-index:1;
 
 }
 
 .footer{
-
+    width:100%;
+    background-color: #050328;
+    color:#e5e5e5;
+    text-align:center;
+    position: relative;
+    padding: 30px;
+    
 }
 
 
@@ -64,3 +94,23 @@ body{
     border: 1px solid #017ac1;
     border-radius: 8px;
 }
+
+.buttoncall{
+    background-color: transparent;
+    color:#ffffff;
+    border:2px solid #ffffff;
+    width: 224px;
+    height: 58px;
+    cursor: pointer;
+}
+
+.buttoncall:hover{
+    background-color: #ffffff;
+    color:#007bc1;
+    border:2px solid #ffffff;
+    width: 224px;
+    height: 58px;
+    cursor: pointer;
+}
+
+  
