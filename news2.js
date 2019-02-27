@@ -1,9 +1,7 @@
 // Start Appearing Newsletter
-var w = $(window), d = $(document);
-w.scroll(function() {
-   if(w.scrollTop() + w.height() == d.height())
-   {
-      console.log("Bottom of the page");
+$(window).scroll(function() {
+   if ($(this).scrollTop() >= 600) {
+      console.log("You hit one-thid of the page");
       document.getElementById("newsletter").className = "slideUp";
    } 
 });
