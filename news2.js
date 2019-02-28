@@ -26,7 +26,7 @@ checkDate = () => {
   var timePast = localStorage.getItem('date');
   var diff = timeNowMinutes - timePast;
   console.log(diff)
-  if(notifHidden && diff >= 1 ){
+  if(notifHidden && diff >= 10 ){
      console.log('ea')
      notif.style.display = "block";
      notifHidden = !notifHidden;
