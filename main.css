@@ -1,4 +1,8 @@
+*{
+  box-sizing:border-box;
+}
 body{
+    margin:0;
     width:100%;
     height:100%;
     background-color: #e5e5e5;
@@ -19,7 +23,7 @@ h2{
     position: relative;
     text-align: center;
     color: #e5e5e5;
-    max-width: 99%;
+    max-width: 100%;
 }
 
 .overlay:before{
@@ -45,7 +49,7 @@ h2{
 .notif{
     background-color: #f2f2f2;
     width: 100%;
-    height: 44px;
+    height: 60px;
     position: sticky;
     top:0px;
     text-align:center;
@@ -69,7 +73,7 @@ h2{
 }
 
 .footer{
-    max-width: 99%;
+    max-width: 100%;
     background-color: #050328;
     color:#e5e5e5;
     text-align:center;
@@ -89,7 +93,7 @@ h2{
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   width:600px;
-  height:150px;
+  height:230px;
   padding:5px 20px 70px 20px;
   background-color: #006aa8;
   opacity: 0.9;
@@ -153,7 +157,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #fba200;
+  background-color:#cc6600;
 }
 /* End Newsletter */
 
@@ -211,7 +215,7 @@ input[type=submit]:hover {
 
 
 .container {
-  max-width: 99%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
