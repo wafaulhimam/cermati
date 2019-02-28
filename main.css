@@ -159,13 +159,9 @@ h2{
   -webkit-animation-name: slideUp;
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
-  width:600px;
-  height:230px;
-  padding:5px 20px 70px 20px;
-  background-color: #006aa8;
-  opacity: 0.9;
+  max-width:100%;
   color:#ffffff;
-  position: sticky;
+  position: fixed;
   visibility: visible;
   z-index: 4;
   bottom:0px;
@@ -200,6 +196,17 @@ h2{
 
 .newspanel2{
   position: relative;
+  max-width: 640px;
+  background-color: #006aa8;
+  opacity: 0.9;
+}
+
+.newspanel-outer{
+  position: relative;
+  width: 99%;
+  background-color: #006aa8;
+  opacity: 0.9;
+  padding: 1%;
 }
 
 input[type=text], select {
