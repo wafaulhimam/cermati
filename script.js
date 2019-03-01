@@ -1,3 +1,12 @@
+// Start Closing Notification Panel
+$(document).ready(function(){
+  $("#buttonnotif").click(function(){
+    $("#notification").slideUp();
+  });
+});
+
+// End Closing Notification Panel
+
 // Start Appearing Newsletter
 $(window).scroll(function() {
    if ($(this).scrollTop() >= 600) {
@@ -56,8 +65,5 @@ notif.onclick = () => {
   localStorage.setItem('newsletter',timeNow);
   intervalCheck();
 }
-
-
-
 // End Localstorage and Setinterval 10 minutes
 

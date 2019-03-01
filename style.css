@@ -1,6 +1,7 @@
 *{
   box-sizing:border-box;
 }
+
 body{
     margin:0;
     width:100%;
@@ -20,7 +21,6 @@ h2{
 }
 
 /* Start Header */
-
 .header{
     position: relative;
     text-align: center;
@@ -51,11 +51,9 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 /* End Header */
 
-/* Start Notif */
-
+/* Start Notification Panel */
 .notif-container-outer{
   max-width: 100%;
   top:0;
@@ -127,16 +125,17 @@ h2{
 .notif-grid-item-content {
   padding: 0px 0px 0px 0px;
 }
+/* End Notification Panel */
 
-/* End Notif */
-
+/* Start Logo */
 .logo{
   position:absolute;
   top:20px;
   left:20px;
-
 }
+/* End Logo */
 
+/* Start Footer */
 .footer{
     max-width: 100%;
     background-color: #050328;
@@ -144,11 +143,10 @@ h2{
     text-align:center;
     position: relative;
     padding: 30px;
-    
 }
+/* End Footer */
 
 /* Start Newsletter */
-
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -231,9 +229,9 @@ input[type=submit]:hover {
 /* End Newsletter */
 
 
-
+/* Start Button */
 .button{
-    background-color: #017ac1; /* Green */
+    background-color: #017ac1; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -278,9 +276,9 @@ input[type=submit]:hover {
     height: 58px;
     cursor: pointer;
 }
+/* End Button */
 
 /* Start Highlight Panel */
-
 .highlight{
   color:#000;
   z-index:1;
@@ -293,9 +291,6 @@ input[type=submit]:hover {
   padding: 0px 2% 3% 2%;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-
-
 .container {
   max-width: 100%;
   margin: 0 auto;
@@ -307,8 +302,7 @@ input[type=submit]:hover {
   justify-content: flex-start;
 }
 
-.grid-item {
-  
+.grid-item { 
   flex-basis: 33%;
   -ms-flex: auto;
   width: 259px;
@@ -356,7 +350,7 @@ input[type=submit]:hover {
   padding: 20px 20px 20px 20px;
 }
 
-.fontawe{
+.fontawe{         
   float: right;
 }
 
