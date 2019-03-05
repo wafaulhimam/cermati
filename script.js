@@ -4,7 +4,6 @@ $(document).ready(function(){
     $("#notification").slideUp();
   });
 });
-
 // End Closing Notification Panel
 
 // Start Appearing Newsletter
